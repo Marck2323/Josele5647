@@ -1,0 +1,164 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consuegra, Toledo</title>
+    <style>
+        /* Estilos Generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        section {
+            margin: 40px auto;
+            padding: 20px;
+            max-width: 1000px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #003366;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        input, textarea, button {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 15px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #003366;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #005B8F;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Consuegra, Toledo</h1>
+        <p>Un rincón de historia, gastronomía y tradición</p>
+    </header>
+
+    <section>
+        <h2>Gastronomía</h2>
+        <div class="image-container">
+            <img src="gastronomia.jpeg">
+        </div>
+        <p>La gastronomía de Consuegra es rica y variada. Entre sus platos típicos se encuentran el pisto manchego, el queso de la zona y los famosos dulces como el "mantecado". No te olvides de probar el vino de la denominación de origen de La Mancha.</p>
+        <div class="image-container">
+            <img src="pistomanchego.jpeg">
+            <img src="quesomanchego.jpeg">
+            <img src="mantecados.jpeg">
+        </div>
+    </section>
+
+    <section>
+        <h2>Costumbres</h2>
+        <div class="image-container">
+            <img src="ruta-a-tu-imagen-de-costumbres.jpg" >
+        </div>
+        <p>Las costumbres de Consuegra están marcadas por sus festividades, como la Semana Santa y la Fiesta de la Rosa del Azafrán. Estas celebraciones reflejan la rica herencia cultural y la vida comunitaria de sus habitantes.</p>
+        <div class="image-container">
+            <img src="semanasantaconsuegra.jpeg">
+            <img src="rosadelazafran.jpeg">
+        </div>
+    </section>
+
+    <section>
+        <h2>Sitios Emblemáticos</h2>
+        <div class="image-container">
+            <img src="sitios.jpg">
+        </div>
+        <p>Entre los sitios emblemáticos de Consuegra destacan sus molinos de viento, que son un símbolo de la región, así como el castillo, que ofrece unas vistas impresionantes del paisaje manchego. No olvides visitar la iglesia de San Juan Bautista, una joya del patrimonio local.</p>
+        <div class="image-container">
+            <img src="molinos.jpeg">
+            <img src="castilloconsuegra.jpeg">
+        </div>
+    </section>
+
+    <section>
+        <h2>Déjanos tu reseña</h2>
+        <form id="review-form">
+            <input type="text" placeholder="Nombre Completo" required>
+            <input type="email" placeholder="Correo Electrónico" required>
+            <input type="password" placeholder="Contraseña" required>
+            <textarea placeholder="Escribe tu reseña aquí..." rows="4" required></textarea>
+            <button type="submit">Enviar Reseña</button>
+			<div style="overflow:auto"></div>
+			</form>
+    </section>
+
+    <footer>
+        
+    </footer>
+
+</body>
+</html>
